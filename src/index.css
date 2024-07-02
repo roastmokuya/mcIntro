@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  body {
+    @apply m-0 p-0 box-border antialiased overflow-hidden bg-gradient-to-b from-blue-400 from-10% via-blue-50 via-60% to-blue-300 to-90%;
+  }
+
+  button {
+    @apply focus-visible:outline-none;
+  }
+}
+
+@layer components {
+  #root {
+    @apply w-screen h-dvh flex justify-center items-center tracking-wide text-gray-950 dark:text-white bg-gradient-to-b dark:from-gray-950 from-10% dark:via-gray-800 via-60% dark:to-gray-900 to-90%;
+  }
+
+  .info-container {
+    @apply absolute top-[15%] max-w-md w-full mx-auto h-[190px] z-10 transition-all duration-500 ease-linear animate-upDown;
+  }
+
+  .info-text {
+    @apply text-base md:text-xl text-center rounded-xl p-4 md:p-5;
+  }
+}
+
+@layer utilities {
+  .play-btn {
+    @apply w-14 h-14 md:w-20 md:h-20 rounded-full bg-rose-400 hover:bg-rose-500 dark:bg-yellow-300 dark:hover:bg-orange-400 transition-colors duration-300 ease-in-out flex justify-center items-center text-white dark:text-gray-950 cursor-pointer;
+  }
+
+  .link-btn {
+    @apply uppercase bg-white hover:bg-sky-500 hover:text-white dark:bg-violet-700 dark:hover:bg-indigo-600 rounded-full text-center p-2 md:p-3 transition duration-300 ease-in-out flex justify-center items-center font-semibold w-full hover:scale-105;
+  }
+}
