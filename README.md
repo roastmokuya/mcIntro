@@ -40,5 +40,6 @@ https://roastmokuya.github.io/mcIntro/
 - React Router Dom
 - React Three Fiber
 - React Vite SSG
+- SVG
 - Vite
 - Zustand
