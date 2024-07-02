@@ -6,7 +6,7 @@ https://roastmokuya.github.io/mcIntro/
 
 ## Cover
 
-![cover](https://hackmd.io/_uploads/rJx3SMbDC.jpg)
+![cover](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_7eac7b3fd28f1615327eb8ee94a235a7.jpg?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1719901315&Signature=XOx1sIIh9s2MqlAiGLTn8Pkmf1I%3D)
 
 ## Introduction
 
